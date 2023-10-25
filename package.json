@@ -6,12 +6,8 @@
 	"scripts": {
 		"start": "webpack-dev-server --mode development --open --config webpack.examples.config.js",
 		"build": "webpack --mode production",
-		"lint": "eslint ./src/*.js*",
-		"test": "jest",
-		"test:update": "jest --updateSnapshot",
-		"build-demo": "webpack --mode production --config webpack.examples.config.js && cp examples/dist/* docs",
-		"build-tests": "jest -u",
-		"prepare": "npm run lint && npm run build"
+		"lint": "eslint ./src/*.js*"
+		
 	},
 	"repository": {
 		"type": "git",
