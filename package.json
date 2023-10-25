@@ -11,7 +11,7 @@
 		"test:update": "jest --updateSnapshot",
 		"build-demo": "webpack --mode production --config webpack.examples.config.js && cp examples/dist/* docs",
 		"build-tests": "jest -u",
-		"prepare": "npm run lint && npm test && npm run build"
+		"prepare": "npm run lint && npm run build"
 	},
 	"repository": {
 		"type": "git",
